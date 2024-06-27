@@ -13,11 +13,23 @@
     padding: 1em;
     margin: 0 auto;
   }
+
   .badge-info,
   .btn-info {
-    background-color: #E3CF36 !important;
-    border-bottom: #E3CF36;
-    border: 1px solid #E3CF36;
+    background-color: #B009AE !important;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    min-height: 50px;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+  }
+  .btn-info:hover {
+    background-color: #0EDCE6 !important;
     border-radius: 4px;
     justify-content: center;
     align-items: center;

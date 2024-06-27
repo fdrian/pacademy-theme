@@ -252,7 +252,7 @@
     background-color: transparent;
   }
   a:hover {
-    color: #fafafa;
+    color: #0EDCE6;
     text-decoration: underline;
   }
   a:not([href]):not([tabindex]),
@@ -2171,13 +2171,15 @@
   }
   .btn-primary {
     color: #fff;
-    background-color: #2B65D9;
-    border-color: #2B65D9;
+    background-color: #2e9fda;
+    border-color: #2e9fda;
   }
   .btn-primary:hover {
     color: #fff;
     background-color: #2e9fda;
     border-color: #2e9fda;
+    box-shadow: 2px 2px #B009AE;
+    
   }
   .btn-primary.focus,
   .btn-primary:focus {
@@ -9545,7 +9547,7 @@
     text-align: center;
   }
   .form-control:focus {
-    background-color: #9a9a9a;
+    background-color: #181819 !important;
   }
   .form-control:focus,
   .input-filled-valid {

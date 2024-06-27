@@ -31,9 +31,9 @@
     display: block;
     padding: 0.8em !important;
     border-radius: 4px;
-    background: #181819;
+    background-color: #181819;
     border: 0 solid #000;
-    color: #9a9a9a;
+    color: #0EDCE6;
     font-weight: 400;
     font-family: Alata,sans-serif;
     -webkit-appearance: none;
