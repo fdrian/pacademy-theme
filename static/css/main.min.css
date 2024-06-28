@@ -588,6 +588,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    bac
   }
   @media (min-width: 576px) {
     .container {
@@ -1409,17 +1410,21 @@
   .table {
     width: 100%;
     margin-bottom: 1rem;
-    color: #212529;
+    
   }
   .table td,
   .table th {
     padding: 0.75rem;
     vertical-align: top;
-    border-top: 1px solid #dee2e6;
   }
   .table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
+    text-transform: uppercase;
+  }
+  .table thead tr {
+    color: #0EDCE6;   
+    text-transform: uppercase;
   }
   .table tbody + tbody {
     border-top: 2px solid #dee2e6;
@@ -2174,16 +2179,20 @@
     background-color: #2e9fda;
     border-color: #2e9fda;
   }
-  .btn-primary:hover {
+  .btn-primary:hover,
+  .btn-secondary:hover,
+  .btn-info:hover, 
+  .btn-danger:hover,
+  .btn-dark:hover {
     color: #fff;
-    background-color: #2e9fda;
-    border-color: #2e9fda;
-    box-shadow: 2px 2px #B009AE;
+    background-color: #0EDCE6;
+    border-color: #0EDCE6;
+    box-shadow: 2px 2px #fafafa;
     
   }
   .btn-primary.focus,
   .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+    box-shadow: 0 0 0 0.2rem #268fff80;
   }
   .btn-primary.disabled,
   .btn-primary:disabled {
@@ -2272,11 +2281,7 @@
     background-color: #E3CF36;
     border-color: #E3CF36;
   }
-  .btn-info:hover {
-    color: #fff;
-    background-color: #E3CF36;
-    border-color: #E3CF36;
-  }
+
   .btn-info.focus,
   .btn-info:focus {
     box-shadow: 0 0 0 0.2rem #E3CF36;
@@ -2303,11 +2308,6 @@
     color: #212529;
     background-color: #ffc107;
     border-color: #ffc107;
-  }
-  .btn-warning:hover {
-    color: #212529;
-    background-color: #e0a800;
-    border-color: #d39e00;
   }
   .btn-warning.focus,
   .btn-warning:focus {
@@ -2336,11 +2336,7 @@
     background-color: #dc3545;
     border-color: #dc3545;
   }
-  .btn-danger:hover {
-    color: #fff;
-    background-color: #c82333;
-    border-color: #bd2130;
-  }
+
   .btn-danger.focus,
   .btn-danger:focus {
     box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
@@ -2397,14 +2393,16 @@
   }
   .btn-dark {
     color: #fff;
-    background-color: #343a40;
-    border-color: #343a40;
+    background-color: ##100c08;
+    border-color: ##100c08;
   }
+  /*
   .btn-dark:hover {
     color: #fff;
     background-color: #23272b;
     border-color: #1d2124;
   }
+    */
   .btn-dark.focus,
   .btn-dark:focus {
     box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
@@ -4901,12 +4899,12 @@
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1;
-    color: #000;
-    text-shadow: 0 1px 0 #fff;
+    color: #E31F24;
+    text-shadow: 0 1px 0 #0a090b;
     opacity: 0.5;
   }
   .close:hover {
-    color: #000;
+    color: #0EDCE6;
     text-decoration: none;
   }
   .close:not(:disabled):not(.disabled):focus,
@@ -9514,12 +9512,18 @@
   html {
     font-family: Alata, sans-serif;
   }
-  h1,
+  h1 {
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
   h2 {
-    font-family: Raleway, RalewayOffline, sans-serif;
+    font-family: Alata, sans-serif;
     font-weight: 500;
     letter-spacing: 2px;
   }
+ 
   a {
     color: #9a9a9a;
     text-decoration: none;
@@ -9531,7 +9535,7 @@
     border-left: 4px solid #6c757d;
     padding-left: 15px;
   }
-  .table thead th {
+  .table thead th {8
     white-space: nowrap;
   }
   .fa-spin.spinner,
@@ -9592,11 +9596,11 @@
     padding: 8px 20px;
   }
   .btn-info {
-    border-color: #5b7290 !important;
+    border-color: #E3CF36 !important;
   }
   .badge-info,
   .btn-info {
-    background-color: #5b7290 !important;
+    background-color: #E3CF36;
   }
   .alert {
     border-radius: 0 !important;
@@ -9624,4 +9628,6 @@
     margin-left: -1.5em;
     font-size: 50%;
   }
-  
+.graph {
+  background-color: #0a090b;
+}  

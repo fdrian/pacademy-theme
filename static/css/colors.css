@@ -2,14 +2,11 @@
 
 colors {
     color: #0a090b;    
-    
+    color: #100c08; /*smoke*/
     color: #0EDCE6; /* primary*/
     color: #B009AE;
-
-    color: #E3CF36;
-    color: #192438;
+    color: #E3CF36;    
     
-    color: #181819;
 
     color: #E31F24;
     color: #1F2C73;
@@ -19,6 +16,3 @@ colors {
     color: #49BF88;
     color: ;
 }
-
---teal: #20c997;
---cyan: #17a2b8;
