@@ -91,7 +91,7 @@
     width: 100%;
     height: 60px;
     line-height: 60px;
-    z-index: -20;
+    z-index: 10;
   }
   /*!
    * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -127,7 +127,7 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+      Roboto,"Poppins", "Alata", Helvetica Neue", Arial, "Noto Sans", sans-serif,
       "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
       "Liberation Mono", "Courier New", monospace;
@@ -165,7 +165,7 @@
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    
   }
   [tabindex="-1"]:focus {
     outline: 0 !important;

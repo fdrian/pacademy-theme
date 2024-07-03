@@ -53,7 +53,7 @@
 						<div class="challenge-hints hint-row row">
 							{% for hint in hints %}
 								<div class='col-md-12 hint-button-wrapper text-center mb-3'>
-									<a class="btn btn-info btn-hint btn-block load-hint" href="javascript:;" data-hint-id="{{ hint.id }}">
+									<a class="btn btn-outline-hint btn-block load-hint" href="javascript:;" data-hint-id="{{ hint.id }}">
 										{% if hint.content %}
 											<small>
 												View Hint
@@ -105,16 +105,18 @@
 						</div>
 						{% endif %}
 
-						<div class="row submit-row">
-							<div class="col-md-9 form-group">
+						<div class="row">
+							<div class="col-md-12 form-group">
 								{% block input %}
 									<input id="challenge-id" class="challenge-id" type="hidden" value="{{ challenge.id }}">
 									<input id="challenge-input" class="challenge-input" type="text" name="answer" placeholder="Flag"/>
 								{% endblock %}
 							</div>
-							<div class="col-md-3 form-group key-submit">
+						</div>
+						<div class="row">
+							<div class="col-md-12">
 								{% block submit %}
-								<button id="challenge-submit" class="challenge-submit" type="submit">
+								<button id="challenge-submit" class="" type="submit">
 									Submit
 								</button>
 								{% endblock %}

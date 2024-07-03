@@ -49,5 +49,9 @@
   }
   .key-submit .btn {
     height: 51px;
+    color: #fff;
+    background-color: #0EDCE6;
+    border-color: #0EDCE6;
+    box-shadow: 2px 2px #fafafa;
   }
   

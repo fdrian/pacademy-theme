@@ -67,6 +67,15 @@
 					</div>
 				</div>
 				{% endif %}
+				<div class="row pt-3">
+					
+					<div class="col-md-6">
+						Already have an <b>account</b>? 
+						<a class="float-right align-text-to-button" href="{{ url_for('auth.login') }}">
+							Log in  
+						</a>
+					</div>
+				</div>
 			</form>
 			{% endwith %}
 		</div>
