@@ -27,38 +27,36 @@
 					<form id="user-profile-form" method="post" accept-charset="utf-8" autocomplete="off" role="form"
 						class="form-horizontal">
 						<div class="form-group">
-							<b>{{ form.name.label }}</b>
-							{{ form.name(class="form-control", value=name) }}
+							<b>Username</b>
+							{{ form.name(class="form-control", value=name, placeholder="Username") }}
 						</div>
 						<div class="form-group">
 							<b>{{ form.email.label }}</b>
-							{{ form.email(class="form-control", value=email) }}
+							{{ form.email(class="form-control", value=email, placeholder="Email") }}
 						</div>
-
 						<hr>
-
 						<div class="form-group">
 							<b>{{ form.confirm.label }}</b>
-							{{ form.confirm(class="form-control") }}
+							{{ form.confirm(class="form-control", placeholder="Current Password") }}
 						</div>
 						<div class="form-group">
 							<b>{{ form.password.label }}</b>
-							{{ form.password(class="form-control") }}
+							{{ form.password(class="form-control", placeholder="New Password") }}
 						</div>
 
 						<hr>
 
 						<div class="form-group">
 							<b>{{ form.affiliation.label }}</b>
-							{{ form.affiliation(class="form-control", value=affiliation or "") }}
+							{{ form.affiliation(class="form-control", value=affiliation or "Pato Academy") }}
 						</div>
 						<div class="form-group">
 							<b>{{ form.website.label }}</b>
-							{{ form.website(class="form-control", value=website or "") }}
+							{{ form.website(class="form-control", value=website or "https://pato.academy") }}
 						</div>
 						<div class="form-group">
 							<b>{{ form.country.label }}</b>
-							{{ form.country(class="form-control custom-select", value=country) }}
+							{{ form.country(class="form-control custom-select", value=country or "BR") }}
 						</div>
 
 						<hr>

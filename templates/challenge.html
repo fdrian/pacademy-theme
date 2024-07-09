@@ -53,7 +53,7 @@
 						<div class="challenge-hints hint-row row">
 							{% for hint in hints %}
 								<div class='col-md-12 hint-button-wrapper text-center mb-3'>
-									<a class="btn btn-outline-hint btn-block load-hint" href="javascript:;" data-hint-id="{{ hint.id }}">
+									<a class="btn btn-primary btn-block load-hint" href="javascript:;" data-hint-id="{{ hint.id }}">
 										{% if hint.content %}
 											<small>
 												View Hint
@@ -77,7 +77,7 @@
 						<div class="row challenge-files text-center pb-3">
 							{% for file in files %}
 								<div class='col-md-4 col-sm-4 col-xs-12 file-button-wrapper d-block'>
-									<a class='btn btn-info btn-file mb-1 d-inline-block px-2 w-100 text-truncate'
+									<a class='btn btn-file mb-1 d-inline-block px-2 w-100 text-truncate'
 									   href='{{ file }}'>
 										<i class="fas fa-download"></i>
 										<small>
@@ -116,7 +116,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								{% block submit %}
-								<button id="challenge-submit" class="" type="submit">
+								<button id="challenge-submit" class="btn btn-primary" type="submit">
 									Submit
 								</button>
 								{% endblock %}

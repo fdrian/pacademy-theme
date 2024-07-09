@@ -24,32 +24,28 @@
 
 			{% with form = Forms.auth.LoginForm() %}
 			<form method="post" accept-charset="utf-8" autocomplete="off">
-				<div class="form-group">
-					<b>{{ form.name.label }}</b>
-					{{ form.name(class="form-control", value=name) }}
-				</div>
-				<div class="form-group">
-					<b>{{ form.password.label }}</b>
-					{{ form.password(class="form-control", value=password) }}
-				</div>
-				<div class="">
-					{{ form.submit(class="btn btn-md btn-primary btn-outlined float-right") }}
+				
+				<div class="form-group">	
+					{{ form.name(class="form-control", id="name", value=name, placeholder="Username") }}
 				</div>
 
+				<div class="form-group">
+				  {{ form.password(class="form-control", id="password", value=password, placeholder="Password") }}
+				</div>
+				<div class="form-group">
+				  <button type="submit" class="btn btn-md btn-primary btn-outlined float-right">Sign In</button>  </div>
 				<div class="row pt-3">
-					<div class="col-md-6">
-						<a class="float-left align-text-to-button" href="{{ url_for('auth.reset_password') }}">
-							Forgot your <b>password</b>? 
-						</a>
-					</div>
-					<div class="col-md-6">
-						<a class="float-right align-text-to-button" href="{{ url_for('auth.register') }}">
-							Don't have an <b>account</b>? 
-						</a>
-					</div>
+				  <div class="col-md-6">
+					<a class="float-left align-text-to-button" href="{{ url_for('auth.reset_password') }}">
+					  Forgot Password?  </a>
+				  </div>
+				  <div class="col-md-6">
+					<a class="float-right align-text-to-button" href="{{ url_for('auth.register') }}">
+					  Create Account  </a>
+				  </div>
 				</div>
 				{{ form.nonce() }}
-			</form>
+			  </form>
 			{% endwith %}
 		</div>
 	</div>

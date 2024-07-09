@@ -27,15 +27,15 @@
     display: block;
   }
   .form-control {
+    font-family: Alata,sans-serif;
     position: relative;
     display: block;
     padding: 0.8em !important;
     border-radius: 4px;
-    background-color: #181819;
-    border: 0 solid #000;
-    color: #0EDCE6;
-    font-weight: 400;
-    font-family: Alata,sans-serif;
+    background-color: #181820;
+    border: 0 solid #181820;
+    color: #00f2ff;
+    font-weight: 400;    
     -webkit-appearance: none;
     height: 64px;
   }
