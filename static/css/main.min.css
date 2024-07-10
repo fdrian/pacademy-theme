@@ -3655,7 +3655,7 @@
   }
   .nav-tabs .nav-link:focus,
   .nav-tabs .nav-link:hover {
-    border-color: #e9ecef #e9ecef #dee2e6;
+    /*border-color: #e9ecef #e9ecef #dee2e6;*/
   }
   .nav-tabs .nav-link.disabled {
     color: #6c757d;
@@ -4941,7 +4941,7 @@
     max-width: 350px;
     overflow: hidden;
     font-size: 0.875rem;
-    background-color: hsla(0, 0%, 100%, 0.85);
+    background-color: #0a090b;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
@@ -4967,7 +4967,7 @@
     align-items: center;
     padding: 0.25rem 0.75rem;
     color: #6c757d;
-    background-color: hsla(0, 0%, 100%, 0.85);
+    background-color: #0a090b;
     background-clip: padding-box;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
@@ -5707,7 +5707,7 @@
   a.bg-dark:hover,
   button.bg-dark:focus,
   button.bg-dark:hover {
-    background-color: #1d2124 !important;
+    background-color: #0a090b !important;
   }
   .bg-white {
     background-color: #fff !important;

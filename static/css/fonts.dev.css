@@ -1,28 +1,35 @@
 @font-face {
-  font-family: "Alata";  /* Keep the same font family name */
+  font-family: "Alata";
   font-style: normal;
   font-display: swap;
-  /* Add a new font weight for thealata.ttf font */
-  font-weight: 400;  /* You can adjust this value based on the font weight of alata.ttf */
-  src: local("Lato Regular"), local("Lato-Regular"),  /* Add display names for clarity */
-       url(../fonts/alata.ttf) format("truetype");  /* Point to your alata.ttf file */
+  font-weight: 100;
+  src: local("Alata Regular"),
+    url(../fonts/Alata-Regular.ttf) format("woff2"),
+    url(../fonts/Alata-Regular.ttf) format("ttf");
 }
 @font-face {
-    font-family: "LatoOffline";
-    font-style: normal;
-    font-display: swap;
-    font-weight: 100;
-    src: local("Lato Thin "), local("Lato-Thin"),
-      url(../fonts/lato-latin-100.woff2) format("woff2"),
-      url(../fonts/lato-latin-100.woff) format("woff");
-  }
+  font-family: "Poppins";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Poppins Regular"),
+    url(../fonts/Poppins-Regular.ttf) format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src: local("Poppins Bold"),
+    url(../fonts/Poppins-Bold.ttf) format("woff2");
+}
+
   @font-face {
     font-family: "LatoOffline";
     font-style: italic;
     font-display: swap;
     font-weight: 100;
-    src: local("Lato Thin italic"), local("Lato-Thinitalic"),
-      url(../fonts/lato-latin-100italic.woff2) format("woff2"),
+    src: local("Lato Thin italic"), local("Lato-Thinitalic"),      
       url(../fonts/lato-latin-100italic.woff) format("woff");
   }
   @font-face {
