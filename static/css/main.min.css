@@ -591,7 +591,6 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    bac
   }
   @media (min-width: 576px) {
     .container {
@@ -3388,13 +3387,13 @@
     appearance: none;
   }
   .custom-select:focus {
-    border-color: #80bdff;
+    border-color: #00F2FF;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
   }
   .custom-select:focus::-ms-value {
-    color: #495057;
-    background-color: #fff;
+    color: #fff;
+    background-color: #00F2FF;
   }
   .custom-select[multiple],
   .custom-select[size]:not([size="1"]) {
