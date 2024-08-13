@@ -7,8 +7,6 @@
     height: 4rem !important;    
   }
   
-  
-  
   .card {
     border-radius: 0 !important;
   }
@@ -32,7 +30,7 @@
     display: block;
     padding: 0.8em !important;
     border-radius: 4px;
-    background-color: #181820;
+    background-color: #0a090b;
     border: 0 solid #181820;
     color: #00f2ff;
     font-weight: 400;    

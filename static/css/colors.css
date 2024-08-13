@@ -7,6 +7,7 @@ colors {
     color: #B009AE;
     color: #E3CF36;    
     
+    background: linear-gradient(15deg, #000 0%, #0a090b 50%, #181820 100%) fixed;        
 
     color: #E31F24;
     color: #1F2C73;
