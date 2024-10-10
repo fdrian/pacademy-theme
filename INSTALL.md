@@ -36,7 +36,7 @@ cp -r * /caminho/para/seu/CTFd/themes/pato-academy/
 ### 4. Ative o Tema no CTFd
 
 1. Acesse o painel de administração do CTFd.
-2. Vá para **Settings** > **Theme** (/admin/config#theme).
+2. Vá para **Settings** > **Theme** (`/admin/config#theme`).
 3. Selecione o tema "Pato Academy" na lista de temas disponíveis.
 4. Salve as alterações.
 
